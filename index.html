@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Barber shop</title>
+    <meta name="description" content="Barber shop">
+    <meta name="keywords" content="Barber shop">
+    <link rel="icon" href="img/favicon1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon1.png" type="image/x-icon">
+    <meta property="og:title" content="Barber shop">
+	<meta property="og:description" content="Barber shop">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="img/beard.png" >
+    <meta property="og:site_name" content="Barber shop">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/stroke-gap-icons.css">
+    <link rel="stylesheet" href="fa/fontawesome-all.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.css">
+	<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Progress -->
+        <div class="progress-top"></div>
+        <div class="progress-right"></div>
+        <div class="progress-bottom"></div>
+        <div class="progress-left"></div>
+        <header class="header" id="header">
+            <div class="container header__container">
+                <div class="phone header__phone animated">
+                    <a href="tel:+19450952576" class="phone__number">+1 945 095-25-76</a>
+                </div>
+                <div class="offer">
+                    <a class="logo offer__logo" href="#header">
+                        <img src="img/logo.png" alt="Barber" class="logo__img">
+                    </a>
+                    <h1 class="offer__title">
+                        Shop
+                    </h1>
+                    <p class="offer__text animated">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius&shy;mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                    </p>
+                    <button class="call offer__button animated" data-parent="First screen" data-toggle="modal" data-target="#myModal">
+                        <span class="span">
+                            <span class="plus">+</span>
+                             make an appointment
+                        </span>
+                    </button>
+                    <p class="offer__you-call animated">
+                        <i class="icon icon-Time"></i>
+                        We`ll call you back in 15 minutes
+                    </p>
+                </div>
+            </div>
+            <div class="parallax" id="parallax">
+                <div class="parallax-4">
+                    <img src="img/style.png" alt="layer0" class="parallax__img">
+                </div>
+                <div class="parallax-3">
+                    <img src="img/style.png" alt="layer1" class="parallax__img">
+                </div>
+                <div class="parallax-2">
+                    <img src="img/yellow.png" alt="layer2" class="parallax__img">
+                </div>
+                <div class="parallax-1">
+                    <img src="img/beard.png" alt="layer3" class="parallax__img">
+                </div>
+            </div>
+        </header>
+        <section class="services" id="services">
+            <div class="container services__container">
+                <a class="mouse services__mouse" href="#works">
+                    <i class="icon icon-Mouse"></i>
+                </a>
+                <h2 class="services__title title2 animated">
+                    <span class="gray">
+                        our
+                    </span>
+                    services
+                </h2>
+                <ul class="services__list">
+                    <li class="services__item">
+                        <img src="img/foto1.jpg" alt="foto" class="services__img">
+                        <div class="services__back">
+                            <div class="services__frame">
+                                <p class="services__text">Haircut</p>
+                                <p class="services__price">$55</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <img src="img/foto2.jpg" alt="foto" class="services__img">
+                        <div class="services__back services__back-2">
+                            <div class="services__frame">
+                                <p class="services__text">Clipper Cut</p>
+                                <p class="services__price">$25</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <img src="img/foto3.jpg" alt="foto" class="services__img">
+                        <div class="services__back services__back-3">
+                            <div class="services__frame">
+                                <p class="services__text">Beard Services</p>
+                                <p class="services__price">$75</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="history" id="history">
+            <div class="container history__container">
+                <div class="order history__order">
+                    <div class="order__icon">
+                        <i class="icon icon-Typing"></i>
+                    </div>
+                    <div class="dispatch order__dispatch">
+                        <h4 class="dispatch__title title4 ticker">
+                            wanna order smth?
+                        </h4>
+                        <p class="dispatch__text">
+                            Full out this form and we`ll contact back shortly
+                        </p>
+                        <form action="success.php" class="dispatch__form js-form" id="popupResult">
+                            <input type="text" name="name" required placeholder="Type your name"  class="dispatch__input dispatch__input--name">
+                            <input type="text" name="tel" required placeholder="Type your phone nuber"  class="dispatch__input">
+                            <input type="text" name="target" hidden value="Third screen">
+                            <button class="call dispatch__button" data-submit data-target="#myModal">
+                                <span class="plus plus--less">+</span>
+                                call me back
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="quality history__quality">
+                    <h3 class="quality__title title3">
+                        History<br> of quality
+                    </h3>
+                    <p class="quality__text">
+                        How we started out this beard-style business
+                    </p>
+                    <div class="quality__img">
+                        <img src="img/gray-face.png" alt="face">
+                    </div>
+                </div>
+                <div class="garage history__garage">
+                    <h4 class="garage__title title4 animated" id="string">
+                        <span class="blink_on">garage team</span>
+                    </h4>
+                    <p class="garage__text animated">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    </p>
+                    <ul class="garage__list owl-carousel loop owl-theme">
+                        <li class="garage__item owl-carousel__items">
+                            <div class="garage__foto">
+                                <img src="img/team1.png" alt="foto" class="garage__img">
+                            </div>
+                            <div class="garage__content">
+                                <p class="garage__icon">
+                                    <i class="icon icon-WorldWide"></i>
+                                </p>
+                                <p class="garage__frame"></p>
+                                <p class="garage__name">
+                                    ivan dorn
+                                </p>
+                                <p class="garage__post">
+                                    Main singer heat-maker
+                                </p>
+                            </div>
+                        </li>
+                        <li class="garage__item owl-carousel__items">
+                            <div class="garage__foto">
+                                <img src="img/team2.png" alt="foto" class="garage__img">
+                            </div>
+                            <div class="garage__content">
+                                <p class="garage__icon">
+                                    <i class="icon icon-Tie"></i>
+                                </p>
+                                <p class="garage__frame"></p>
+                                <p class="garage__name">
+                                    vanya dron
+                                </p>
+                                <p class="garage__post">
+                                    Second singer hit-maker
+                                </p>
+                            </div>
+                        </li>
+                        <li class="garage__item owl-carousel__items">
+                            <div class="garage__foto">
+                                <img src="img/team1.png" alt="foto" class="garage__img">
+                            </div>
+                            <div class="garage__content">
+                                <p class="garage__icon">
+                                    <i class="icon icon-Stop"></i>
+                                </p>
+                                <p class="garage__frame"></p>
+                                <p class="garage__name">
+                                    ivan dorn
+                                </p>
+                                <p class="garage__post">
+                                    Main singer heat-maker
+                                </p>
+                            </div>
+                        </li>
+                        <li class="garage__item owl-carousel__items">
+                            <div class="garage__foto">
+                                <img src="img/team2.png" alt="foto" class="garage__img">
+                            </div>
+                            <div class="garage__content">
+                                <p class="garage__icon">
+                                    <i class="icon icon-Scisors"></i>
+                                </p>
+                                <p class="garage__frame"></p>
+                                <p class="garage__name">
+                                    vanya dron
+                                </p>
+                                <p class="garage__post">
+                                    Second singer hit-maker
+                                </p>
+                            </div>
+                        </li>
+                        <li class="garage__item owl-carousel__items">
+                            <div class="garage__foto">
+                                <img src="img/team1.png" alt="foto" class="garage__img">
+                            </div>
+                            <div class="garage__content">
+                                <p class="garage__icon">
+                                    <i class="icon icon-WorldWide"></i>
+                                </p>
+                                <p class="garage__frame"></p>
+                                <p class="garage__name">
+                                    ivan dorn
+                                </p>
+                                <p class="garage__post">
+                                    Main singer heat-maker
+                                </p>
+                            </div>
+                        </li>
+                        <li class="garage__item owl-carousel__items">
+                            <div class="garage__foto">
+                                <img src="img/team2.png" alt="foto" class="garage__img">
+                            </div>
+                            <div class="garage__content">
+                                <p class="garage__icon">
+                                    <i class="icon icon-Tie"></i>
+                                </p>
+                                <p class="garage__frame"></p>
+                                <p class="garage__name">
+                                    vanya dron
+                                </p>
+                                <p class="garage__post">
+                                    Second singer hit-maker
+                                </p>
+                            </div>
+                        </li>
+                        <li class="garage__item owl-carousel__items">
+                            <div class="garage__foto">
+                                <img src="img/team1.png" alt="foto" class="garage__img">
+                            </div>
+                            <div class="garage__content">
+                                <p class="garage__icon">
+                                    <i class="icon icon-Stop"></i>
+                                </p>
+                                <p class="garage__frame"></p>
+                                <p class="garage__name">
+                                    ivan dorn
+                                </p>
+                                <p class="garage__post">
+                                    Main singer heat-maker
+                                </p>
+                            </div>
+                        </li>
+                        <li class="garage__item owl-carousel__items">
+                            <div class="garage__foto">
+                                <img src="img/team2.png" alt="foto" class="garage__img">
+                            </div>
+                            <div class="garage__content">
+                                <p class="garage__icon">
+                                    <i class="icon icon-Scisors"></i>
+                                </p>
+                                <p class="garage__frame"></p>
+                                <p class="garage__name">
+                                    vanya dron
+                                </p>
+                                <p class="garage__post">
+                                    Second singer hit-maker
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="works" id="works">
+            <div class="container works__container">
+                <h2 class="works__title title2 animated">
+                    <span class="gray">
+                        recent
+                    </span>
+                    works
+                </h2>
+            </div>
+            <div class="container-works">
+                <ul class="works__list">
+                    <li class="works__item works__item--1">
+                        <a href="img/w1.jpg" class="works__link" data-fancybox="fancybox">
+                            <img src="img/w1.jpg" alt="foto1" class="works__img">
+                            <div class="works__overlay">
+                                <div class="works__text">
+                                    long beard<br> on tatooed man
+                                    <div class="works__square">
+                                        <span class="works__plus">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="works__item works__item--2">
+                        <a href="img/w2.jpg" class="works__link" data-fancybox="fancybox">
+                            <img src="img/w2.jpg" alt="foto1" class="works__img">
+                            <div class="works__overlay">
+                                <div class="works__text">
+                                    long beard<br> on tatooed man
+                                    <div class="works__square">
+                                        <span class="works__plus">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="works__item works__item--3">
+                        <a href="img/w3.jpg" class="works__link" data-fancybox="fancybox">
+                            <img src="img/w3.jpg" alt="foto1" class="works__img">
+                            <div class="works__overlay">
+                                <div class="works__text">
+                                    long beard<br> on tatooed man
+                                    <div class="works__square">
+                                        <span class="works__plus">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="works__item works__item--4">
+                        <a href="img/w4.jpg" class="works__link" data-fancybox="fancybox">
+                            <img src="img/w4.jpg" alt="foto1" class="works__img">
+                            <div class="works__overlay">
+                                <div class="works__text">
+                                    long beard<br> on tatooed man
+                                    <div class="works__square">
+                                        <span class="works__plus">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="works__item works__item--5">
+                        <a href="img/w5.jpg" class="works__link" data-fancybox="fancybox">
+                            <img src="img/w5.jpg" alt="foto1" class="works__img">
+                            <div class="works__overlay">
+                                <div class="works__text">
+                                    long beard<br> on tatooed man
+                                    <div class="works__square">
+                                        <span class="works__plus">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="works__item works__item--6">
+                        <a href="img/w6.jpg" class="works__link" data-fancybox="fancybox">
+                            <img src="img/w6.jpg" alt="foto1" class="works__img">
+                            <div class="works__overlay">
+                                <div class="works__text">
+                                    long beard<br> on tatooed man
+                                    <div class="works__square">
+                                        <span class="works__plus">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="works__item works__item--7">
+                        <a href="img/w7.jpg" class="works__link" data-fancybox="fancybox">
+                            <img src="img/w7.jpg" alt="foto1" class="works__img">
+                            <div class="works__overlay">
+                                <div class="works__text">
+                                    long beard<br> on tatooed man
+                                    <div class="works__square">
+                                        <span class="works__plus">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="works__item works__item--8">
+                        <a href="img/w8.jpg" class="works__link" data-fancybox="fancybox">
+                            <img src="img/w8.jpg" alt="foto1" class="works__img">
+                            <div class="works__overlay">
+                                <div class="works__text">
+                                    long beard<br> on tatooed man
+                                    <div class="works__square">
+                                        <span class="works__plus">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="works__item works__item--9">
+                        <a href="img/w9.jpg" class="works__link" data-fancybox="fancybox">
+                            <img src="img/w9.jpg" alt="foto1" class="works__img">
+                            <div class="works__overlay">
+                                <div class="works__text">
+                                    long beard<br> on tatooed man
+                                    <div class="works__square">
+                                        <span class="works__plus">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="works__item works__item--10">
+                        <a href="img/w10.jpg" class="works__link" data-fancybox="fancybox">
+                            <img src="img/w10.jpg" alt="foto1" class="works__img">
+                            <div class="works__overlay">
+                                <div class="works__text">
+                                    long beard<br> on tatooed man
+                                    <div class="works__square">
+                                        <span class="works__plus">+</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer class="footer" id="footer">
+            <div class="container footer__container">
+                <div class="footer__content">
+                    <div class="footer__left">
+                        <a class="footer__logo" href="#header">
+                            <img src="img/logo.png" alt="Barber" class="footer__img">
+                            <h5 class="footer__text">
+                                Shop
+                            </h5>
+                            <div class="footer__face">
+                                <img src="img/gray-face.png" alt="face">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="phone footer__phone">
+                        <a href="tel:+19450952576" class="phone__number">+1 945 095-25-76</a>
+                    </div>
+                    <div class="footer__mail">
+                        <div class="mail">
+                            <a href="mailto:info@sitename.ru" class="mail__link">
+                                info@sitename.ru
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#header" class="footer__up circle">&#8593;</a>
+                    <ul class="social footer__social">
+                        <li class="social__item">
+                            <a href="https://www.facebook.com/tatyaniya" class="social__link" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://www.youtube.com/channel/UCrWP9UeNep74kW0cxY7YPpw" class="social__link" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="https://www.instagram.com/wayup.in.official/" class="social__link" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="footer__copyright">
+                    2017 / All right reserved
+                </p>
+            </div>
+        </footer>
+    </div>
+    <div id="loader">
+        <img src="img/ripple.svg" alt="ripple">
+    </div>
+    <div id="overlay">
+        <div id="thx">
+            Thank you! We will contact you.
+        </div>
+    </div>
+     <!-- Modal -->
+	<div class="modal fade popup-closed" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <h4 class="modal__title title4">
+                wanna order smth?
+            </h4>
+            <p class="modal-text">
+                Full out this form and we`ll contact back shortly
+            </p>
+            <form action="success.php" class="modal__form js-form" id="popupResult">
+                <input type="text" name="name" required placeholder="Type your name"  class="modal__input modal__input--name">
+                <input type="text" name="tel" required placeholder="Type your phone nuber"  class="modal__input">
+                <input type="text" name="target" hidden>
+                <button class="call modal__button" data-parent="First screen" data-submit data-target="#myModal">
+                    <span class="plus">+</span>
+                    call me back
+                </button>
+            </form>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- Валидатор для проверки формы на заполненность  -->
+    <script src="js/ajax.aspnetcdn.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
